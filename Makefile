@@ -53,6 +53,11 @@ $(MFST_OBJ): %.o: %.cpp $(MFST_HDR)
 all: path \
      third_party_core
 
+path: $(NEED_MKDIR)
+
+$(NEED_MKDIR):
+	mkdir -p $@
+
 clean:
 	rm -rf $(MFST_BIN)
 

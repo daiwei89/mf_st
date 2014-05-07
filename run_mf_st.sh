@@ -4,8 +4,8 @@ data_file=datasets/netflix.dat
 #output_file=results/small_output
 output_file=results/netflix_output
 rank=100
-init_step_size=0.005
-num_iterations=5
+init_step_size=0.0001
+num_iterations=50
 
 
 GLOG_logtostderr=true \

@@ -5,12 +5,8 @@ BOOST_HOST = http://downloads.sourceforge.net/project/boost/boost/1.54.0
 third_party_core: path \
 	                gflags \
                   glog \
-                  zeromq \
-                  boost \
                   gperftools \
-									cuckoo \
-                  libconfig \
-                  yaml-cpp
+									boost
 
 third_party_all: third_party_core \
                  sparsehash \
